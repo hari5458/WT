@@ -1,0 +1,35 @@
+<html>
+<head>
+  <title>Text Manipulation with RegEx</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+
+<header><h1>Text Manipulation with RegEx</h1></header>
+
+<main>
+<div class="container">
+
+<textarea id="inputText" rows="10" cols="50"></textarea>
+
+<label>Search for:</label>
+<input id="searchText">
+
+<label>Replace with:</label>
+<input id="replaceText">
+
+<button onclick="performSearch()">Search</button>
+<button onclick="performReplace()">Replace</button>
+<button onclick="performFormat()">Format</button>
+
+<div id="results">
+<textarea id="outputText" rows="10" cols="50" readonly></textarea>
+</div>
+
+</div>
+</main>
+
+<footer>&copy; 2025</footer>
+</body>
+</html>

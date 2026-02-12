@@ -1,0 +1,45 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+header {
+  background: lightcoral;
+  color:white;
+  padding:20px;
+  text-align:center;
+}
+
+main {
+  padding:20px;
+  display:flex;
+  justify-content:space-around;
+  background:#f9f9f9;
+}
+
+#product-list, #cart { width:45%; }
+
+.product, #cartItems li {
+  background:white;
+  padding:10px;
+  margin-bottom:10px;
+  border:1px solid #ddd;
+  border-radius:5px;
+}
+
+button {
+  padding:10px;
+  background:lightcoral;
+  color:white;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+button:hover { background:darkred; }
+
+#totalPrice { font-weight:bold; }
+
+footer {
+  text-align:center;
+  padding:10px;
+  background:#333;
+  color:white;
+}
